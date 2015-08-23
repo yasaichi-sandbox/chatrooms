@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Chat
+    link(rel='stylesheet', type='text/css', href='stylesheets/main.css')
+  body
+    #content
+      #room
+      #room-list
+      #messages
+      form#send-form
+        input#send-message
+        input#send-button(type='submit', value='Send')
+        #help
+          p Chat commands
+          ul
+            li Change nickname: /nick [username]
+            li Join/Create room: /join [room name]
+    script(type='text/javascript', src='javascripts/app.js')

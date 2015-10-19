@@ -29,4 +29,5 @@ gulp.task('watch', ['jade', 'stylus'], () => {
   gulp.watch('./app/stylesheets/*.styl', ['stylus']);
 });
 
+gulp.task('build', ['jade', 'stylus']);
 gulp.task('default', ['watch']);

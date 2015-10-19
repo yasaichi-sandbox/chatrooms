@@ -1,8 +1,10 @@
-import http from 'http';
-import fs from 'fs';
-import path from 'path';
-import mime from 'mime';
-import chatServer from './lib/chat_server';
+'use strict';
+
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const mime = require('mime');
+const chatServer = require('./lib/chat_server');
 
 let cache = {};
 

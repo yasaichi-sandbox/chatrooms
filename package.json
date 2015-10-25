@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Minimalist multiroom chat server",
   "engines": {
-    "node": ">=4.2.1"
+    "node": "4.2.1",
+    "npm": "^2.14.7"
   },
   "scripts": {
     "start": "node server.js",
